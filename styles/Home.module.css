@@ -1,0 +1,25 @@
+.title {
+    color: hsl(0, 0%, 20%);
+    text-align: center;
+}
+
+.text {
+    color: hsl(0, 0%, 35%);
+}
+
+.button {
+    --button-back: hsl(224, 100%, 64%);
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 15px auto;
+    padding: 8px;
+    border: 1px solid var(--button-back);
+    border-radius: 3px;
+    transition: all 100ms ease-in;
+}
+
+.button:hover {
+    color: white;
+    background-color: hsl(224, 100%, 64%);
+}

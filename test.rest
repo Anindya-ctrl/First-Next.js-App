@@ -1,0 +1,1 @@
+GET https://api-for-first-next-app.anindyactrl.repl.co
