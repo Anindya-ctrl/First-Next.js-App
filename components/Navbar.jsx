@@ -4,14 +4,12 @@ import Image from 'next/image';
 function Navbar() {
     return (
         <nav className="navbar">
-            <a href="/">
-                <Image
-                    src="/logo.jpg"
-                    height={ 70 }
-                    width={ 70 }
-                    alt="logo"
-                />
-            </a>
+            <Image
+                src="/logo.jpg"
+                height={ 70 }
+                width={ 70 }
+                alt="logo"
+            />
 
             <div className="links">
                 <Link href="/">Home</Link>
