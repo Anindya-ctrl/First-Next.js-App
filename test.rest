@@ -1,1 +1,1 @@
-GET https://api-for-first-next-app.anindyactrl.repl.co
+GET http://localhost:3000/api/waifus

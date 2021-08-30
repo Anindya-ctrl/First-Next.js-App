@@ -1,7 +1,7 @@
 import HeadComponent from "../../components/HeadComponent";
 
 export const getStaticPaths = async () => {
-    const result = await fetch('https://api-for-first-next-app.anindyactrl.repl.co');
+    const result = await fetch('https://first-next-js-app-q49f6s6dq-anindya-ctrl.vercel.app/api/waifus');
     const data = await result.json();
 
     return {
@@ -14,7 +14,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async context => {
     const { id } = context.params;
-    const result = await fetch(`https://api-for-first-next-app.anindyactrl.repl.co/${ id }`);
+    const result = await fetch(`https://first-next-js-app-q49f6s6dq-anindya-ctrl.vercel.app/api/waifus/${ id }`);
     const data = await result.json();
 
     return {

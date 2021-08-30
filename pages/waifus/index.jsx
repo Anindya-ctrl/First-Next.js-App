@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { waifu as WaifuStyle } from '../../styles/Waifus.module.css';
 
 export const getStaticProps = async () => {
-    const result = await fetch('https://api-for-first-next-app.anindyactrl.repl.co');
+    const result = await fetch('https://first-next-js-app-q49f6s6dq-anindya-ctrl.vercel.app/api/waifus');
     const data = await result.json();
 
     return {
